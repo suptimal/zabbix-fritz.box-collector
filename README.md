@@ -11,7 +11,7 @@ collects fritzbox metrics using a simple php-script with soap-client using Docke
 ```
 cd container
 docker build -t php-soap/php-soap:7.0 ./
-
+cd ..
 #run container
 bash docker-run.sh
 ```
