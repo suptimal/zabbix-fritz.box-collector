@@ -18,3 +18,4 @@ bash docker-run.sh
 
 4. create host with hostname "fritz.box" and link template.
    * if u choose another hostname update ```$hostname``` in ```bin/get_status.php``` accordingly.
+   * for extended information create an fritzbox user and set ```$fritz_user``` and ``` $fritz_password ``` in ```bin/get_status.php```.
